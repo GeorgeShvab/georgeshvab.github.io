@@ -1,1 +1,36 @@
-/**/
+html {
+	box-sizing: border-box;
+}
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+a {
+	text-decoration: none;
+}
+.wrapper {
+	margin: 0 auto;
+	max-width: 1140px;
+	height: 100%;
+}
+.header {
+	width: 100%;
+	position: fixed;
+	padding: 20px 0;
+}
+.header__logo {
+	font-size: 42px;
+	font-family: "Roboto-Bold";
+}
+
+@font-face {
+	font-family: "Itim-Regular";
+	font-style: normal;
+	font-weight: 400;
+	src: url("../fonts/Itim-Regular.ttf");
+}
+@font-face {
+	font-family: "Roboto-Bold";
+	font-style: bold;
+	font-weight: 700;
+	src: url("../fonts/Roboto-Bold.ttf");
+}
