@@ -4,7 +4,7 @@ html {
 *, *::before, *::after {
 	box-sizing: inherit;
 }
-a {
+/*a {
 	text-decoration: none;
 }
 .wrapper {
@@ -38,4 +38,4 @@ body {
 	background: url("../images/image.jpg") center;
 	background-size: cover;
 	height: 100vh;
-}
+}*/
