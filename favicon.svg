@@ -5,8 +5,10 @@
 <style type="text/css">
 	.st0{fill:none;}
 	.st1{font-family:'MyriadPro-Regular';}
-	.st2{font-size:17px;}
+	.st2{font-size:20px;}
 </style>
-<rect x="0.1" class="st0" width="23.9" height="24"/>
-<text transform="matrix(1 0 0 1 2.3652 18.0352)" class="st1 st2">GS</text>
+<rect x="1.1" y="1" class="st0" width="23.9" height="24"/>
+<text transform="matrix(1 0 0 1 6.5869 20.0996)" class="st1 st2">G</text>
+<rect x="-2" y="-2" class="st0" width="24" height="24"/>
+<text transform="matrix(1 0 0 1 5.0698 17.0996)" class="st1 st2">S</text>
 </svg>
