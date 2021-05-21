@@ -27,6 +27,7 @@ body {
 .header__logo-link {
 	height: 32px;
 	display: block;
+}
 .header__lists {
 	display: flex;
 }
