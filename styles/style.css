@@ -1,0 +1,81 @@
+html {
+	box-sizing: border-box;
+}
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+a {
+	text-decoration: none;
+}
+.wrapper {
+	margin: 0 auto;
+	max-width: 1140px;
+	height: 100%;
+}
+.header {
+	width: 100%;
+	position: fixed;
+	padding: 20px 0;
+	box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+}
+.header__wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+.header__logo {
+	font-size: 36px;
+	font-family: "Roboto-Bold";
+	color: #1E1928;
+	text-align: center;
+	width: fit-content;
+	transition: color 1s;
+}
+.header__logo_colorized {
+	font-size: 36px;
+	font-family: "Roboto-Bold";
+	color: #1E90FF;
+	transition: color 1s;
+}
+.header__logo:hover {
+	color: #1E90FF;
+}
+.header__logo:hover .header__logo_colorized {
+	color: #1E1928;
+}
+.header__nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.header__nav-list {
+	display: flex;
+}
+.header__item-link {
+	font-size: 20px;
+	font-family: "Roboto-Bold";
+	color: #1E1928;
+	transition: color 0.5s;
+}
+.header__item-link:hover {
+	color: #1E90FF;
+}
+.header__nav-item {
+	margin-right: 40px;
+}
+.header__nav-item:last-child {
+	margin-right: 0;
+}
+
+
+@font-face {
+	font-family: "Itim-Regular";
+	font-style: normal;
+	font-weight: 400;
+	src: url("../fonts/Itim-Regular.ttf");
+}
+@font-face {
+	font-family: "Roboto-Bold";
+	font-style: bold;
+	font-weight: 700;
+	src: url("../fonts/Roboto-Bold.ttf");
+}
