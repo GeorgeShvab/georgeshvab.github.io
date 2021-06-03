@@ -72,6 +72,9 @@ a {
 	justify-content: space-between;
 	position: relative;
 }
+.intro__greeting {
+	padding-top: 40px;
+}
 .intro__greeting-up {
 	font-size: 46px;
 	font-family: "Roboto-Bold";
