@@ -110,6 +110,10 @@ a {
     	bottom: 50px;
     }
 }
+.intro_illustration {
+	height: 200px;
+	width: 200px;
+}
 .about-me {
 	height: 100vh;
 	background: #FCFCFC;
