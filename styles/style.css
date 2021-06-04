@@ -20,7 +20,7 @@ a {
 .header {
 	width: 100%;
 	padding: 20px 0;
-	margin-bottom: 150px;
+	margin-bottom: 130px;
 }
 .header__wrapper {
 	display: flex;
@@ -73,7 +73,7 @@ a {
 	position: relative;
 }
 .intro__greeting {
-	padding-top: 60px;
+	padding-top: 70px;
 }
 .intro__greeting-up {
 	font-size: 46px;
@@ -89,8 +89,24 @@ a {
 	color: #1E1928;
 	width: 400px;
 	line-height: 40px;
+	margin-bottom: 40px;
 }
-.intro__arrow {
+.intro__button {
+	width: 250px;
+	height: 60px;
+	border-radius: 30px;
+	background: #E42424;
+	border: none;
+	font-size: 24px;
+	font-family: "Roboto-Regular";
+	color: #FCFCFC;
+	cursor: pointer;
+	transition: 0.5s transform;
+}
+.intro__button:hover {
+	transform: scale(1.05);
+}
+/*.intro__arrow {
 	position: absolute;
 	bottom: 50px;
 	height: 50px;
@@ -98,10 +114,10 @@ a {
 	left: 50%;
 	transform: translateX(-50%);
 }
-.intro__arrow {
+/*.intro__arrow {
     animation-name: up-down;
     animation-duration: 2000ms;
-    animation-iteration-count: infinite; /* The magic keyword for infinite*/
+    animation-iteration-count: infinite;  The magic keyword for infinite
 }
 @keyframes up-down {
     0% {
@@ -113,7 +129,7 @@ a {
     100% {
     	bottom: 50px;
     }
-}
+}*/
 .intro__illustration {
 	height: 500px;
 	width: 500px;
