@@ -11,10 +11,6 @@ window.onload = function onload() {
 	$("#header__contacts").click(function(){
 		scroll_to_section("contacts");
 	})
-	$(".btn").click(function(){
-		alert($(".skills").offset().top.toFixed());
-		alert($("html").scrollTop().toFixed());
-	})
 	$(window).scroll(function() {
   		scroll_event("skills__wrapper", "_active");
   		scroll_event("skills__title", "_active");
@@ -24,6 +20,9 @@ window.onload = function onload() {
   		scroll_event("about-me__content-subtitle", "_active");
   		scroll_event("about-me__title", "_active");
   		scroll_event("about-me__illustration", "_active-image");
+  		scroll_event("skills__paragraph-1", "_active");
+  		scroll_event("skills__paragraph-2", "_active");
+  		scroll_event("skills__paragraph-3", "_active");
 	});
 }
 
