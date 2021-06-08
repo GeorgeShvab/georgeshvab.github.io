@@ -196,6 +196,7 @@ a {
   	grid-template-columns: repeat(4, 1fr);
   	grid-column-gap: 20px;
   	grid-row-gap: 40px;
+  	margin-bottom: 80px;
 }
 ._active {
 	transform: translateY(0) !important;
@@ -227,13 +228,15 @@ a {
   	grid-column-start: 3;
   	grid-column-end: 5;
 }
-.btn {
-	position: fixed;
-	width: 100px;
-	height: 100px;
-	top: 0;
-	left: 0;
-	display: none;
+.skills__paragraph-1, .skills__paragraph-2, .skills__paragraph-3 {
+	font-size: 18px;
+	font-family: "Roboto-Regular";
+	color: #1E1928;
+	line-height: 26px;
+	margin-bottom: 20px;
+	width: 900px;
+	margin: 0 auto 5px;
+	text-align: center;
 }
 @font-face {
 	font-family: "Itim-Regular";
