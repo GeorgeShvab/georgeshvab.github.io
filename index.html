@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="/styles/style.css">
 	<link rel="stylesheet" href="/styles/reset.css">
 	<script src="scripts/script.js"></script>
+	<script src="scripts/jquery-3.6.0.min.js"></script>
 </head>
 <body>
 	<section class="header-intro">
@@ -17,16 +18,16 @@
 					<nav class="header__nav">
 						<ul class="header__list">
 							<li class="header__item">
-								<a href="" class="header__item-link">Обо мне</a>
+								<button id="header__about-me" class="header__item-link">Обо мне</button>
 							</li>
 							<li class="header__item">
-								<a href="" class="header__item-link">Мои навыки</a>
+								<button id="header__skills" class="header__item-link">Мои навыки</button>
 							</li>
 							<li class="header__item">
-								<a href="" class="header__item-link">Потфолио</a>
+								<button id="header__portfolio" class="header__item-link">Потфолио</button>
 							</li>
 							<li class="header__item">
-								<a href="" class="header__item-link">Контакты</a>
+								<button id="header__contacts" class="header__item-link">Контакты</button>
 							</li>
 						</ul>
 					</nav>
@@ -48,16 +49,34 @@
 	<section class="about-me">
 		<div class="wrapper">
 			<div class="about-me__wrapper">
-				<img src="images/illustration_2.svg" alt="" class="about-me__illustration">
+				<img src="images/illustration_2.svg" alt="" class="about-me__illustration _inactive-image">
 				<div class="about-me__content-wrapper">
-					<h2 class="about-me__content-title">Обо мне</h2>
-					<p class="about-me__content-subtitle">Меня зовут Георгий Шваб, я занимаюсь разработкой сайтов.</p>
-					<p class="about-me__content-text">У меня много интересов, главный из них, очевидно, программирование. Также я интересуюсь технологиями, рисованием, дизайном, физикой и астрономией, географией, изучаю английский язык.</p>
-					<p class="about-me__content-text">Заниматься программированием начал в 16 лет. С тех пор изучал различные технологии и языки, но предпочтение предоставил front-end разработке.</p>
-					<p class="about-me__content-text">Сейчас я продолжаю улучшать свои навыки в front-end, интересуюсь back-end и планирую стать full-stack разработчиком.</p>
+					<h2 class="about-me__title _inactive">Обо мне</h2>
+					<p class="about-me__content-subtitle _inactive">Меня зовут Георгий Шваб, я занимаюсь разработкой сайтов.</p>
+					<p class="about-me__content-paragraph-1 _inactive">Заниматься программированием начал в 16 лет. С тех пор изучал различные технологии и языки, но предпочтение предоставил front-end разработке.</p>
+					<p class="about-me__content-paragraph-2 _inactive">Сейчас я продолжаю улучшать свои навыки в front-end, интересуюсь back-end и планирую стать full-stack разработчиком.</p>
+					<p class="about-me__content-paragraph-3 _inactive">У меня много интересов, главный из них, очевидно, программирование. Также я интересуюсь технологиями, рисованием, дизайном, физикой и астрономией, географией, изучаю английский язык.</p>
 				</div>
 			</div>
 		</div>
 	</section>
+	<section class="skills">
+		<div class="wrapper">
+			<h2 class="skills__title _inactive">Мои навыки</h2>
+			<div class="skills__wrapper _inactive">
+				<div class="skills__grid-item">html</div>
+				<div class="skills__grid-item">CSS</div>
+				<div class="skills__grid-item">JavaScript</div>
+				<div class="skills__grid-item">PHP</div>
+				<div class="skills__grid-item skills__grid-item-bigger-1">Jquery</div>
+				<div class="skills__grid-item skills__grid-item-bigger-2">WordPress</div>
+				<div class="skills__grid-item">Figma</div>
+				<div class="skills__grid-item">Photoshop</div>
+				<div class="skills__grid-item">Adobe Illustrator</div>
+				<div class="skills__grid-item">Github</div>
+			</div>
+		</div>
+	</section>
+	<button class="btn">sdsdsds</button>
 </body>
 </html>
