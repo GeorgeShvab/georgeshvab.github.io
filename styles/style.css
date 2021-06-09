@@ -108,30 +108,6 @@ a {
 .intro__button:hover {
 	transform: scale(1.05);
 }
-/*.intro__arrow {
-	position: absolute;
-	bottom: 50px;
-	height: 50px;
-	width: 75px;
-	left: 50%;
-	transform: translateX(-50%);
-}
-/*.intro__arrow {
-    animation-name: up-down;
-    animation-duration: 2000ms;
-    animation-iteration-count: infinite;  The magic keyword for infinite
-}
-@keyframes up-down {
-    0% {
-    	bottom: 50px; 
-  	}
- 	50% {
-    	bottom: 25px;
-    }
-    100% {
-    	bottom: 50px;
-    }
-}*/
 .intro__illustration {
 	height: 500px;
 	width: 500px;
@@ -182,7 +158,6 @@ a {
 .skills {
 	padding-top: 100px;
 	background: #FCFCFC;
-	height: 200vh;
 }
 .skills__title {
 	font-size: 30px;
@@ -207,18 +182,32 @@ a {
 	transition: 1s transform, 1s opacity;
 	opacity: 0;
 }
-._active-image {
+._active-about-me-image {
 	transform: scale(1) translateX(-75px) !important;
 }
-._inactive-image {
+._inactive-about-me-image {
 	transform: scale(0.5) translateX(-75px);
 	transition: 1s transform;
 }
-.skills__grid-item {
-	text-align: center;
+._active-image {
+	transform: scale(1) !important;
+}
+._inactive-image {
+	transform: scale(0.5);
+	transition: 1s transform;
+}
+.skills__item-text {
 	font-size: 18px;
 	font-family: "Roboto-Regular";
 	color: #1E1928;
+    display: inline-block;
+    transition: 1s transform;
+}
+.skills__item-text:hover {
+  	transform: translateY(-20px);
+}
+.skills__grid-item {
+	text-align: center;
 }
 .skills__grid-item-bigger-1 {
   	grid-column-start: 1;
@@ -238,6 +227,44 @@ a {
 	margin: 0 auto 5px;
 	text-align: center;
 }
+.skills__paragraph-3 {
+	margin-bottom: 0;
+}
+.portfolio {
+	padding: 100px 0;
+	background: #FCFCFC;
+}
+.portfolio__title {
+	font-size: 30px;
+	font-family: "Roboto-Bold";
+	color: #1E1928;
+	margin-bottom: 80px;
+	text-align: center;
+}
+.portfolio__wrapper {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+  	grid-column-gap: 40px;
+  	grid-row-gap: 40px;
+}
+.portfolio__block-image {
+	width: 400px;
+	height: 400px;
+	display: block;
+}
+.portfolio__block-title {
+	font-size: 18px;
+	font-family: "Roboto-Regular";
+	color: #1E1928;
+	text-align: center;
+}
+.portfolio__block-link {
+	display: block;
+	width: 400px;
+	height: 400px;
+	margin: 0 auto 20px;
+}
+
 @font-face {
 	font-family: "Itim-Regular";
 	font-style: normal;
