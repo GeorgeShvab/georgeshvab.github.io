@@ -19,10 +19,13 @@ window.onload = function onload() {
   		scroll_event("about-me__content-paragraph-1", "_active");
   		scroll_event("about-me__content-subtitle", "_active");
   		scroll_event("about-me__title", "_active");
-  		scroll_event("about-me__illustration", "_active-image");
+  		scroll_event("about-me__illustration", "_active-about-me-image");
   		scroll_event("skills__paragraph-1", "_active");
   		scroll_event("skills__paragraph-2", "_active");
   		scroll_event("skills__paragraph-3", "_active");
+  		scroll_event("portfolio__title", "_active");
+  		scroll_event("portfolio__block-1", "_active");
+  		scroll_event("portfolio__block-2", "_active");
 	});
 }
 
