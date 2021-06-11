@@ -18,9 +18,7 @@
 .menu__button {
 	background: none;
 	border: none;
-}
-.header__item-link {
-	color: #FCFCFC;
+	display: none;
 }
 .header__list-menu {
 	width: fit-content;
@@ -53,6 +51,9 @@
 	.menu {
 		display: flex;
 	}
+	.menu__button {
+		display: block;
+	}
 	.intro__image {
 		max-width: 500px;
 		max-height: 500px;
@@ -64,6 +65,9 @@
 	}
 	.header__list {
 		display: none;
+	}
+	.header__item-link {
+		color: #FCFCFC;
 	}
 	.header__list-menu {
 		display: block;
