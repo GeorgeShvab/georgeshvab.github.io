@@ -6,6 +6,7 @@
 	<title>Georgiy Shvab</title>
 	<link rel="stylesheet" href="/styles/style.css">
 	<link rel="stylesheet" href="/styles/reset.css">
+	<link rel="stylesheet" href="/styles/adaptive.css">
 	<script src="scripts/script.js"></script>
 	<script src="scripts/jquery-3.6.0.min.js"></script>
 </head>
@@ -26,10 +27,21 @@
 							<li class="header__item">
 								<a id="header__portfolio" class="header__item-link">Потфолио</a>
 							</li>
-							<li class="header__item">
-								<a id="header__contacts" class="header__item-link">Контакты</a>
+						</ul>
+					<button class="menu__button"><img src="images/menu-icon.svg" alt="" class="header__menu-icon"></button>
+					<menu class="menu">
+						<ul class="header__list-menu">
+							<li class="header__item menu__items-inactive">
+								<a id="menu__about-me" class="header__item-link">Обо мне</a>
+							</li>
+							<li class="header__item menu__items-inactive">
+								<a id="menu__skills" class="header__item-link">Мои навыки</a>
+							</li>
+							<li class="header__item menu__items-inactive">
+								<a id="menu__portfolio" class="header__item-link">Потфолио</a>
 							</li>
 						</ul>
+					</menu>
 					</nav>
 				</div>
 			</header>
@@ -37,11 +49,10 @@
 				<div class="intro__greeting">
 					<h1 class="intro__greeting-up">Привет, я Георгий Шваб.</h1>
 					<p class="intro__greeting-down">Я занимаюсь фронт-енд девелопментом с 2019 года.</p>
-					<button class="intro__button">Портфолио</button>
+					<a href="https://telegram.me/G_Shvab" class="intro__button">Заказать сайт</a>
 				</div>
 				<div class="intro__image">
 					<img src="images/illustration_programmer.svg" alt="" class="intro__illustration">
-					</div>
 				</div>
 			</div>
 		</div>
@@ -76,7 +87,7 @@
 				<div class="skills__grid-item"><span class="skills__item-text">Github</span></div>
 			</div>
 			<p class="skills__paragraph-1 _inactive">Среди наиболее нужных front-end девелоперу навыков, я имею хорошие знания в html/css и JS. Практически полностью знаю библиотеку Jquery для JS, работал и с другими библиотеками JS. Имею опыт работы с WordPress, но мои навыки в нем не совершенны.</p>
-			<p class="skills__paragraph-2 _inactive">Среди других навыков программирования, имею поверхностные знания в PHP</p>
+			<p class="skills__paragraph-2 _inactive">Среди других языков программирования, имею поверхностные знания в PHP и Python.</p>
 			<p class="skills__paragraph-3 _inactive">Умею работать и верстать с Figma и Photoshop. Могу рисовать векторные иллюстрации и простые растровые картинки в Photoshop и Illustrator. С недавнего времени также учусь делать дизайн сайтов.</p>
 		</div>
 	</section>
@@ -94,10 +105,33 @@
 					<a href="https://georgeshvab.github.io/works/konstruct/" class="portfolio__block-link">
 						<img src="images/Konstruct.jpg" alt="" class="portfolio__block-image">
 					</a>
-					<h3 class="portfolio__block-title">Верстка шаблона Konstruct с Figma</h3>
+					<h3 class="portfolio__block-title">Верстка шаблона Construct с Figma</h3>
 				</div>
 			</div>
 		</div>
 	</section>
+	<footer class="footer">
+		<div class="wrapper">
+			<div class="footer__line"></div>
+			<div class="footer__wrapper">
+				<div class="footer__email-wrapper">
+					<span class="footer__email">E-mail:</span>
+					<a href="mailto:georgiy.shvab@gmail.com" class="footer__email-link">georgiy.shvab@gmail.com</a>
+				</div>
+				<div class="footer__social-networks-wrapper">
+					<a href="https://github.com/GeorgeShvab" class="footer__social-network-link">
+						<img src="images/github-logo.svg" alt="" class="footer__social-network-image">
+					</a>
+					<a href="https://www.instagram.com/g.shvab18/" class="footer__social-network-link">
+						<img src="images/instagram-logo.svg" alt="" class="footer__social-network-image">
+					</a>
+					<a href="https://telegram.me/G_Shvab" class="footer__social-network-link">
+						<img src="images/telegram-logo.svg" alt="" class="footer__social-network-image">
+					</a>
+				</div>
+			</div>
+			<div class="footer__copyrights">Copyright © 2021 Georgiy Shvab.</div>
+		</div>
+	</footer>
 </body>
 </html>
