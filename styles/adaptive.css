@@ -152,3 +152,8 @@
 		margin: 0 auto;
 	}
 }
+@media only screen and (max-width: 400px) {
+	.footer__email {
+		margin-right: 0;
+	}
+}
