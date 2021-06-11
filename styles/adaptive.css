@@ -145,6 +145,9 @@
 		margin-bottom: 60px;
 		text-align: center;
 	}
+	.footer__email {
+		margin-bottom: 20px;
+	}
 	.footer__social-networks-wrapper {
 		margin: 0 auto;
 	}
