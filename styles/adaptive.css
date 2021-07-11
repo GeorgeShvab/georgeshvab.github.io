@@ -129,6 +129,9 @@
 	.skills__item-text {
 		padding: 10px 5px; 
 	}
+	.skills__paragraph-1, .skills__paragraph-2, .skills__paragraph-3 { 
+		text-align: center;
+	}
 	.portfolio__title {
 		margin-bottom: 30px;
 	}
