@@ -104,7 +104,7 @@
 	.about-me__illustration {
 		display: none;
 	}
-	.about-me__content-paragraph-1, .about-me__content-paragraph-2, .about-me__content-paragraph-3, .about-me__content-subtitle, .about-me__title {
+	.about-me__content-paragraph-1, .about-me__content-paragraph-2, .about-me__content-paragraph-3, .about-me__content-subtitle, .about-me__title, .skills__paragraph-1, .skills__paragraph-2, .skills__paragraph-3 {
 		max-width: 100%;
 		text-align: center;
 	}
