@@ -146,6 +146,7 @@ a {
 	line-height: 28px;
 	max-width: 500px;
 	margin-bottom: 20px;
+	text-align: justify;
 }
 .about-me__content-subtitle {
 	font-size: 28px;
@@ -225,7 +226,7 @@ a {
 	margin-bottom: 20px;
 	max-width: 1050px;
 	margin: 0 auto 5px;
-	text-align: center;
+	text-align: justify;
 }
 .skills__paragraph-3 {
 	margin-bottom: 0;
