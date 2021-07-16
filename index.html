@@ -11,41 +11,32 @@
 	<script src="scripts/jquery-3.6.0.min.js"></script>
 </head>
 <body>
-	<section class="header-intro">
+	<header class="header">
 		<div class="wrapper">
-			<header class="header">
-				<div class="header__wrapper">
-					<div class="header__logo">GEORGIY SHVAB</div>
-					<nav class="header__nav">
-						<ul class="header__list">
-							<li class="header__item">
-								<a id="header__about-me" class="header__item-link">Обо мне</a>
-							</li>
-							<li class="header__item">
-								<a id="header__skills" class="header__item-link">Мои навыки</a>
-							</li>
-							<li class="header__item">
-								<a id="header__portfolio" class="header__item-link">Потфолио</a>
-							</li>
-						</ul>
-					<button class="menu__button"><img src="images/menu-icon.svg" alt="" class="header__menu-icon"></button>
-					<menu class="menu">
-						<ul class="header__list-menu">
-							<li class="header__item menu__items-inactive">
-								<a id="menu__about-me" class="header__item-link">Обо мне</a>
-							</li>
-							<li class="header__item menu__items-inactive">
-								<a id="menu__skills" class="header__item-link">Мои навыки</a>
-							</li>
-							<li class="header__item menu__items-inactive">
-								<a id="menu__portfolio" class="header__item-link">Потфолио</a>
-							</li>
-						</ul>
-					</menu>
-					</nav>
-				</div>
-			</header>
-			<div class="intro">
+			<div class="header__wrapper">
+				<div class="header__logo">GEORGIY SHVAB</div>
+				<nav class="header__nav">
+					<ul class="header__list">
+						<li class="header__item">
+							<a id="header__about-me" class="header__item-link">Обо мне</a>
+						</li>
+						<li class="header__item">
+							<a id="header__skills" class="header__item-link">Мои навыки</a>
+						</li>
+						<li class="header__item">
+							<a id="header__portfolio" class="header__item-link">Потфолио</a>
+						</li>
+					</ul>
+					<div class="header__burger-container">
+						<span class="header__burger"></span>
+					</div>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<section class="intro">
+		<div class="wrapper">
+			<div class="intro__wrapper">
 				<div class="intro__greeting">
 					<h1 class="intro__greeting-up">Привет, я Георгий Шваб.</h1>
 					<p class="intro__greeting-down">Я занимаюсь фронт-енд девелопментом с 2019 года.</p>
