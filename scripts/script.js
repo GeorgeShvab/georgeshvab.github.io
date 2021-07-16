@@ -1,3 +1,4 @@
+var menu_activated = false;
 window.onload = function onload() {
 	$("#header__about-me").click(function(){
 		scroll_to_section("about-me");
@@ -24,8 +25,13 @@ window.onload = function onload() {
   		scroll_event("portfolio__block-1", "_active");
   		scroll_event("portfolio__block-2", "_active");
 	});
-	$(".menu__button").click(function(){
-		open_menu();
+	$(".header__burger-container").click(function(){
+		if (menu_activated == false) {
+			open_menu();
+		}
+		else {
+			close_menu();
+		}
 	})
 }
 
@@ -40,27 +46,14 @@ function scroll_to_section(section_name) {
     }, 2000);
 }
 function close_menu() {
-	$(".menu").css("left", "100vw");
-	$(".menu__items-inactive").removeClass("menu__items-active");
-	$("html").css("overflow", "scroll");
+	$(".header__burger").removeClass("header__burger_activated");
+	$(".header__list").removeClass("header__list_activated");
+	$("html").removeClass("no-scroll");
+	menu_activated = false;
 }
 function open_menu() {
-	$(".menu").css("left", "25vw");
-	$("html").css("overflow", "hidden");
-	$(".menu__items-inactive").addClass("menu__items-active");
-	$("#menu__about-me").click(function(){
-		scroll_to_section("about-me");
-		close_menu();
-	})
-	$("#menu__skills").click(function(){
-		scroll_to_section("skills");
-		close_menu();
-	})
-	$("#menu__portfolio").click(function(){
-		scroll_to_section("portfolio");
-		close_menu();
-	})
-	$(".intro").click(function(){
-		close_menu();
-	})
+	$(".header__burger").addClass("header__burger_activated");
+	$(".header__list").addClass("header__list_activated");
+	$("html").addClass("no-scroll");
+	menu_activated = true;
 }
