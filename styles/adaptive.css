@@ -1,36 +1,57 @@
-.header__menu-icon {
-	width: 32px;
-	height: 28px;
-}
-.menu {
-	position: fixed;
-	height: 100vh;
-	width: 75vw;
-	background: rgba(30, 25, 40, 1);
-	top: 0;
-	left: 100vw;
-	z-index: 50;
-	transition: 1s left;
+.header__burger-container {
+	width: auto;
+	height: 30px;
 	display: none;
 	justify-content: center;
 	align-items: center;
+	cursor: pointer;
+	z-index: 10;
 }
-.menu__button {
-	background: none;
-	border: none;
-	display: none;
+.header__burger {
+	display: block;
+	height: 6px;
+	width: 30px;
+	background: #1E1928;
+	border-radius: 15px;
+	position: relative;
+	transition: all 0.5s ease-in-out;
 }
-.header__list-menu {
-	width: fit-content;
+.header__burger::before {
+	content: "";
+	display: block;
+	height: 6px;
+	width: 30px;
+	background: #1E1928;
+	border-radius: 15px;
+	position: absolute;
+	transform: translateY(-10px);
+	transition: all 0.5s ease-in-out;
 }
-.menu__items-active {
-	transform: translateX(0) !important;
-	opacity: 1 !important;
+
+.header__burger::after {
+	content: "";
+	display: block;
+	height: 6px;
+	width: 30px;
+	background: #1E1928;
+	border-radius: 15px;
+	position: absolute;
+	transform: translateY(10px);
+	transition: all 0.5s ease-in-out;
 }
-.menu__items-inactive {
+.header__list_activated {
+	width: 100%;
+	height: 400px !important;
+}
+.header__burger_activated {
 	transform: translateX(50px);
-	opacity: 0;
-	transition: 2s transform, 2s opacity;
+	background: transparent;
+}
+.header__burger_activated::after {
+	transform: rotate(45deg) translate(-35px, 35px);
+}
+.header__burger_activated::before {
+	transform: rotate(-45deg) translate(-35px, -35px);
 }
 @media only screen and (max-width: 1154px) {
 	._inactive-about-me-image {
@@ -45,14 +66,14 @@
 	}
 }
 @media only screen and (min-width: 300px) and (max-width: 992px) {
-	.header__menu-icon {
-		display: block;
+	.header {
+		position: fixed;
+		top: 0;
+		left: 0;
+		margin-bottom: 0;
 	}
-	.menu {
+	.header__burger-container {
 		display: flex;
-	}
-	.menu__button {
-		display: block;
 	}
 	.intro__image {
 		max-width: 500px;
@@ -64,24 +85,33 @@
 		height: 100%;
 	}
 	.header__list {
-		display: none;
-	}
-	.header__item-link {
-		color: #FCFCFC;
-	}
-	.header__list-menu {
+		overflow-y: hidden;
+		height: 70px;
+		width: 100%;
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: 4;
 		display: block;
+		box-shadow: 0 1px 15px 0 rgba(30, 25, 40, 0.3);
 	}
 	.header__item-link {
 		font-size: 30px;
+		text-align: center;
+		width: 100%;
+		display: block;
 	}
 	.header__item {
-		margin-bottom: 30px;
+		margin: 0 0 30px;
+		text-align: center;
+	}
+	.header__item:first-child {
+		margin-top: 200px;
 	}
 	.header__item:last-child {
 		margin-bottom: 0;
 	}
-	.intro {
+	.intro__wrapper {
 		display: block;
 		text-align: center;
 	}
@@ -98,8 +128,9 @@
 	.intro__button {
 		margin: 0 auto 40px;
 	}
-	.header-intro {
+	.intro {
 		height: auto;
+		padding-top: 200px;
 	}
 	.about-me__illustration {
 		display: none;
