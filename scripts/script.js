@@ -24,12 +24,20 @@ window.onload = function onload() {
   		scroll_event("portfolio__title", "_active");
   		scroll_event("portfolio__block-1", "_active");
   		scroll_event("portfolio__block-2", "_active");
+  		if (menu_activated) {
+  			close_menu();
+  		}
 	});
 	$(".header__burger-container").click(function(){
-		if (menu_activated == false) {
+		if (!menu_activated) {
 			open_menu();
 		}
 		else {
+			close_menu();
+		}
+	})
+	$(".intro").click(function(){
+		if (menu_activated) {
 			close_menu();
 		}
 	})
@@ -48,12 +56,12 @@ function scroll_to_section(section_name) {
 function close_menu() {
 	$(".header__burger").removeClass("header__burger_activated");
 	$(".header__list").removeClass("header__list_activated");
-	$("html").removeClass("no-scroll");
+	/*$("html").removeClass("no-scroll");*/
 	menu_activated = false;
 }
 function open_menu() {
 	$(".header__burger").addClass("header__burger_activated");
 	$(".header__list").addClass("header__list_activated");
-	$("html").addClass("no-scroll");
+	/*$("html").addClass("no-scroll");*/
 	menu_activated = true;
 }
