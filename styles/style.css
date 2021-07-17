@@ -8,6 +8,9 @@ html {
 a {
 	text-decoration: none;
 }
+body {
+	background: #FCFCFC;
+}
 .no-scroll {
 	overflow-y: hidden;
 }
@@ -35,9 +38,7 @@ a {
 	height: 70px;
 	background: #FCFCFC;
 	z-index: 5;
-	position: fixed;
-	top: 0;
-	left: 0;
+	display: none;
 }
 .header__wrapper {
 	display: flex;
@@ -50,6 +51,9 @@ a {
 	font-family: "Roboto-Bold";
 	color: #1E1928;
 	z-index: 10;
+}
+.header__logo span {
+	color: #AB0101;
 }
 .header__nav {
 	display: flex;
