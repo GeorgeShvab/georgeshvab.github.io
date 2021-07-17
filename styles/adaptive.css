@@ -72,6 +72,12 @@
 		left: 0;
 		margin-bottom: 0;
 	}
+	.header::before {
+		position: fixed;
+		top: 0;
+		left: 0;
+		display: block;
+	}
 	.header__burger-container {
 		display: flex;
 	}
