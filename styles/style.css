@@ -230,7 +230,7 @@ body {
     transition: 1s transform;
 }
 .skills__item-text:hover {
-  	transform: translateY(-20px);
+  	transform: rotate(360deg);
 }
 .skills__grid-item {
 	text-align: center;
@@ -261,7 +261,7 @@ body {
 	border-radius: 30px;
 	display: block;
 	padding: 10px;
-	max-width: 180px;
+	max-width: 160px;
 	margin: 0 auto;
 }
 .portfolio {
