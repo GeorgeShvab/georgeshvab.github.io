@@ -15,7 +15,7 @@ body {
 	overflow-y: hidden;
 }
 .intro {
-	height: 100vh;
+	height: auto;
 	background: #FCFCFC;
 }
 .wrapper {
@@ -144,7 +144,7 @@ body {
 .about-me {
 	background: #FCFCFC;
 	padding: 60px 0 20px;
-	height: 100vh;
+	height: auto;
 }
 .about-me__illustration {
 	height: 600px;
