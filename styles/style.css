@@ -327,6 +327,9 @@ body {
 .portfolio .grid__item-image {
   height: 221px;
 }
+.footer {
+  padding-top: 70px;
+}
 .footer__text {
   font-family: "AnonymousPro-Regular";
   font-size: 30px;
