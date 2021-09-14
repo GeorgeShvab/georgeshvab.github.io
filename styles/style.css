@@ -15,6 +15,7 @@ body {
 }
 .header .wrapper {
   overflow: hidden;
+}
 .header {
   height: 100vh;
   background: url("../images/header-background.jpg") center no-repeat;
