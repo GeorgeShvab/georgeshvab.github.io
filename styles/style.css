@@ -512,10 +512,10 @@ footer img:hover {
   }
   .nav__list {
     position: fixed;
-    right: -300px;
+    right: -75vw;
     top: 0;
     height: 100vh;
-    width: 300px;
+    width: 75vw;
     background: #000000, 20%;
     backdrop-filter: blur(10px);
     z-index: 1000;
