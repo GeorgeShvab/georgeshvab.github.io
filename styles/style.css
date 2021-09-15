@@ -212,7 +212,6 @@ body {
 .about-me {
   background: url("../images/about-me-background.jpg") center no-repeat;
   background-size: cover;
-  background-attachment: fixed;
   padding-bottom: 70px;
 }
 .about-me .section__title {
@@ -482,6 +481,9 @@ footer img:hover {
   }
   .about-me__block-subtitle {
     width: auto;
+  }
+  .about-me__container:first-child .about-me__block:last-child {
+    margin-bottom: 68px;
   }
 }
 @media only screen and (max-width: 768px) {
