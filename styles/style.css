@@ -484,16 +484,13 @@ footer img:hover {
   .about-me__block-subtitle {
     width: auto;
   }
-  .about-me__container:first-child .about-me__block:last-child::after {
-    display: block;
-  }
-  .about-me__container:first-child .about-me__block:last-child {
-    margin-bottom: 68px;
-  }
 }
 @media only screen and (max-width: 768px) {
   body {
     position: relative;
+  }
+  .header {
+    height: 850px;
   }
   .logo {
     display: block;
@@ -541,15 +538,18 @@ footer img:hover {
   .grid {
     grid-gap: 40px;
   }
+  .about-me__block::after {
+    display: none !important;
+  }
   .footer__container > * {
     margin-right: auto !important;
     margin-left: auto !important;
     text-align: center;
   }
-  .footer__text:first-child {
-    margin-bottom: 15px !important;
+  .footer__text {
+    margin-bottom: 30px !important;
   }
   .footer__container:first-child {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
   }
 }
