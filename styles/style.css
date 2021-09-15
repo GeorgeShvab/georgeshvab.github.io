@@ -89,7 +89,7 @@ body {
   width: 220px;
   height: 50px;
   line-height: 50px;
-  border: 1px solid #F5F5F5;
+  border: 2px solid #F5F5F5;
   background: none;
   font-family: "Roboto-Regular";
   font-size: 22px;
@@ -181,7 +181,7 @@ body {
   justify-content: center;
 }
 .grid__item {
-  height: 281px;
+  height: 300px;
   width: 220px;
   border: 5px solid #2DABA4;
   border-radius: 30px;
@@ -500,7 +500,7 @@ footer img:hover {
     font-size: 1.06em !important;
   }
   .header {
-    font-size: 1.1em !important;
+    font-size: 1.15em !important;
   }
   .nav {
     display: flex;
@@ -538,6 +538,9 @@ footer img:hover {
   }
   .wrapper > .footer__container {
     display: block;
+  }
+  .intro__button {
+    font-size: 20px !important;
   }
   .grid {
     grid-gap: 40px;
