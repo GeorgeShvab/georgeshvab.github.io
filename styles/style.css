@@ -490,7 +490,7 @@ footer img:hover {
     position: relative;
   }
   .header {
-    height: 850px;
+    height: 850px !important;
   }
   .logo {
     display: block;
