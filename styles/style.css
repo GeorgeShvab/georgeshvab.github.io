@@ -20,6 +20,7 @@ body {
   height: 100vh;
   background: url("../images/header-background.jpg") center no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   padding: 30px 0 0;
 }
 .nav {
@@ -212,6 +213,7 @@ body {
 .about-me {
   background: url("../images/about-me-background.jpg") center no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   padding-bottom: 70px;
 }
 .about-me .section__title {
@@ -240,6 +242,9 @@ body {
 .about-me__block {
   margin-bottom: 68px;
   position: relative;
+  opacity: 0;
+  transform: translateX(60px);
+  transition: 0.5s transform, 0.5s opacity;
 }
 .about-me__block:last-child {
   margin-bottom: 0;
@@ -470,7 +475,7 @@ footer img:hover {
   .section__title_is-active::after {
     width: 90%;
   }
-  .grid__item_is-active {
+  .scroll-animation-active {
     transform: translateX(0);
     opacity: 1;
   }
@@ -487,6 +492,9 @@ footer img:hover {
   }
 }
 @media only screen and (max-width: 768px) {
+  .header, .about-me {
+    background-attachment: unset;
+  }
   body {
     position: relative;
   }
