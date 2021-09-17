@@ -8,7 +8,10 @@ window.onload = function () {
 		scrollEvent("section__title-2", "section__title_is-active");
 		scrollEvent("section__title-3", "section__title_is-active");
 		for (var i = 1; i < 15; i++) {
-			scrollEvent("grid__item" + "-" + i, "grid__item_is-active");
+			scrollEvent("grid__item" + "-" + i, "scroll-animation-active");
+		}
+		for (var a = 1; a < 7; a++) {
+			scrollEvent("about-me__block" + "-" + a, "scroll-animation-active");
 		}
 		if (open) {
 			closeMenu();
@@ -34,6 +37,7 @@ window.onload = function () {
 	function scrollEvent(className, newClassName) {
 		if ($("html").scrollTop() > $("." + className).offset().top - $(window).height() - 100) {
 			$("." + className).addClass(newClassName);
+			console.log(className);
 		}
 	}
 	function scrollTo(className) {
