@@ -1,5 +1,6 @@
 window.onload = function () {
 	let open = false;
+	let isGridAnimationActive = false;
 	$(".nav__link-skills").click(() => {scrollTo("skills")});
 	$(".nav__link-about-me").click(() => {scrollTo("about-me")});
 	$(".nav__link-portfolio").click(() => {scrollTo("portfolio")});
@@ -8,10 +9,10 @@ window.onload = function () {
 		scrollEvent("section__title-2", "section__title_is-active");
 		scrollEvent("section__title-3", "section__title_is-active");
 		for (var i = 1; i < 15; i++) {
-			scrollEvent("grid__item" + "-" + i, "scroll-animation-active");
+			scrollEvent("grid__item" + "-" + i, "scroll-animation_active");
 		}
 		for (var a = 1; a < 7; a++) {
-			scrollEvent("about-me__block" + "-" + a, "scroll-animation-active");
+			scrollEvent("about-me__block" + "-" + a, "scroll-animation_active");
 		}
 		if (open) {
 			closeMenu();
@@ -24,6 +25,21 @@ window.onload = function () {
 			closeMenu();
 		}
 	});
+	$(".grid__item-1").click(() => {shake("grid__item-1")});
+	$(".grid__item-2").click(() => {shake("grid__item-2")});
+	$(".grid__item-3").click(() => {shake("grid__item-3")});
+	$(".grid__item-4").click(() => {shake("grid__item-4")});
+	$(".grid__item-5").click(() => {shake("grid__item-5")});
+	$(".grid__item-6").click(() => {shake("grid__item-6")});
+	$(".grid__item-7").click(() => {shake("grid__item-7")});
+	$(".grid__item-8").click(() => {shake("grid__item-8")});
+	$(".grid__item-9").click(() => {shake("grid__item-9")});
+	$(".grid__item-10").click(() => {shake("grid__item-10")});
+	$(".grid__item-11").click(() => {shake("grid__item-11")});
+	$(".grid__item-12").click(() => {shake("grid__item-12")});
+	$(".grid__item-13").click(() => {shake("grid__item-13")});
+	$(".grid__item-14").click(() => {shake("grid__item-14")});
+	$(".grid__item-15").click(() => {shake("grid__item-15")});
 	function openMenu() {
 		$(".nav__list").addClass("nav__list_is-active");
 		$(".menu-button").addClass("menu-button_is-active");
@@ -37,7 +53,6 @@ window.onload = function () {
 	function scrollEvent(className, newClassName) {
 		if ($("html").scrollTop() > $("." + className).offset().top - $(window).height() - 100) {
 			$("." + className).addClass(newClassName);
-			console.log(className);
 		}
 	}
 	function scrollTo(className) {
@@ -47,5 +62,17 @@ window.onload = function () {
     	if (open) {
     		closeMenu();
     	}
+	}
+	function shake(className) {
+		if (!isGridAnimationActive) {
+			let animation = (Math.round(Math.random() * 10) > 5) ? "shake" : "rotate";
+			$("." + className + " .grid__item-image").addClass("grid__item_click-" + animation + "-animation");
+			isGridAnimationActive = true;
+			setTimeout( () => {
+				$("." + className + " .grid__item-image").removeClass("grid__item_click-" + animation + "-animation");
+				isGridAnimationActive = false; 
+			}, 500);
+
+		}
 	}
 }
