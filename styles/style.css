@@ -12,8 +12,6 @@ body {
   margin: 0 auto;
   padding: 0 15px;
   height: 100%;
-}
-.header .wrapper {
   overflow: hidden;
 }
 .header {
