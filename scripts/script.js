@@ -25,21 +25,21 @@ window.onload = function () {
 			closeMenu();
 		}
 	});
-	$(".grid__item-1").click(() => {shake("grid__item-1")});
-	$(".grid__item-2").click(() => {shake("grid__item-2")});
-	$(".grid__item-3").click(() => {shake("grid__item-3")});
-	$(".grid__item-4").click(() => {shake("grid__item-4")});
-	$(".grid__item-5").click(() => {shake("grid__item-5")});
-	$(".grid__item-6").click(() => {shake("grid__item-6")});
-	$(".grid__item-7").click(() => {shake("grid__item-7")});
-	$(".grid__item-8").click(() => {shake("grid__item-8")});
-	$(".grid__item-9").click(() => {shake("grid__item-9")});
-	$(".grid__item-10").click(() => {shake("grid__item-10")});
-	$(".grid__item-11").click(() => {shake("grid__item-11")});
-	$(".grid__item-12").click(() => {shake("grid__item-12")});
-	$(".grid__item-13").click(() => {shake("grid__item-13")});
-	$(".grid__item-14").click(() => {shake("grid__item-14")});
-	$(".grid__item-15").click(() => {shake("grid__item-15")});
+	$(".grid__item-1").click(() => {animate("grid__item-1")});
+	$(".grid__item-2").click(() => {animate("grid__item-2")});
+	$(".grid__item-3").click(() => {animate("grid__item-3")});
+	$(".grid__item-4").click(() => {animate("grid__item-4")});
+	$(".grid__item-5").click(() => {animate("grid__item-5")});
+	$(".grid__item-6").click(() => {animate("grid__item-6")});
+	$(".grid__item-7").click(() => {animate("grid__item-7")});
+	$(".grid__item-8").click(() => {animate("grid__item-8")});
+	$(".grid__item-9").click(() => {animate("grid__item-9")});
+	$(".grid__item-10").click(() => {animate("grid__item-10")});
+	$(".grid__item-11").click(() => {animate("grid__item-11")});
+	$(".grid__item-12").click(() => {animate("grid__item-12")});
+	$(".grid__item-13").click(() => {animate("grid__item-13")});
+	$(".grid__item-14").click(() => {animate("grid__item-14")});
+	$(".grid__item-15").click(() => {animate("grid__item-15")});
 	function openMenu() {
 		$(".nav__list").addClass("nav__list_is-active");
 		$(".menu-button").addClass("menu-button_is-active");
@@ -63,10 +63,10 @@ window.onload = function () {
     		closeMenu();
     	}
 	}
-	function shake(className) {
+	function animate(className) {
 		if (!isGridAnimationActive) {
 			let animation = (Math.round(Math.random() * 10) > 5) ? "shake" : "rotate";
-			$("." + className + " .grid__item-image").addClass("grid__item_click-" + animation + "-animation");
+			$(".skills " + "." + className + " .grid__item-image").addClass("grid__item_click-" + animation + "-animation");
 			isGridAnimationActive = true;
 			setTimeout( () => {
 				$("." + className + " .grid__item-image").removeClass("grid__item_click-" + animation + "-animation");
