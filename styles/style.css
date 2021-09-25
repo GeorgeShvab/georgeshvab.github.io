@@ -61,6 +61,7 @@ body {
   transition: 0.5s;
   position: relative;
   display: block;
+  cursor: pointer;
 }
 .intro__greating {
   margin-bottom: 132px;
