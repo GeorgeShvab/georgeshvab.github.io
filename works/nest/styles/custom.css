@@ -1,0 +1,152 @@
+.category-1 {
+	box-sizing: border-box;
+}
+.font-roboto {
+	font-family: "Roboto-Regular";
+}
+.nav-link:hover {
+	color: #f6f6f6 !important;
+}
+.nav-link-active {
+	color: #f6f6f6 !important;
+}
+.title-line::after {
+	content: "";
+	position: absolute;
+	height: 4px;
+	width: 70px;
+	background: #a7c44c;
+	margin: auto;
+	bottom: -20px;
+	left: 0;
+	right: 0;
+}
+.team .title-line::after {
+	content: "";
+	position: absolute;
+	height: 4px;
+	width: 70px;
+	background: #FFFFFF;
+	margin: auto;
+	bottom: -20px;
+	left: 0;
+	right: 0;
+}
+
+/*categories-effects*/
+
+.projects button:hover {
+	background: #a7c44c !important;
+	color: white !important;
+}
+.categories-item {
+	background: none;
+	border-radius: 10px 0 10px 0;
+	color: #a7c44c;
+	border-color: #a7c44c !important;
+	transition: 0.5s all;
+	white-space: nowrap;
+	width: 145px;
+	height: 48px;
+	text-align: center;
+	padding: 0 !important;
+}
+.active-category {
+	background: #a7c44c !important;
+	color: white !important;
+}
+.show-category {
+	opacity: 1 !important;
+	z-index: 10;
+}
+.portfolio-hover-effect {
+	transform: scale(0) !important;
+	opacity: 0 !important;
+	transition: 0.5s all;
+	cursor: pointer;
+}
+.show-category .portfolio-hover-effect {
+	transform: scale(1.0) !important;
+	opacity: 1 !important;
+}
+.category-transition {
+	transition: 1s all;
+}
+.category-transition-none {
+	transition: 0s all !important;
+}
+
+
+/*categories-effects*/
+
+
+
+.portfolio-hover-effect:hover img {
+	opacity: 0.4;
+}
+.portfolio-hover-effect p {
+	bottom: 20% !important;
+}
+.portfolio-hover-effect:hover p {
+	bottom: 35% !important;
+	opacity: 1 !important;
+}
+.contact button:hover {
+	filter: brightness(0.85);
+}
+.footer a {
+	width: 32px !important;
+	height: 32px !important;
+	transition: 1s all !important;
+	display: block;
+}
+.header-active {
+	background: #363636 !important;
+}
+.header-active > div {
+	padding-top: 0.5rem !important;
+	padding-bottom: 0.5rem !important;
+}
+.input:focus {
+  border-color: #FF0000;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 0, 0, 0.6);
+}
+
+.footer a:nth-child(1) {
+	background: url("../images/social-networks/facebook.png");
+	background-size: contain;
+}
+.footer a:nth-child(2) {
+	background: url("../images/social-networks/twitter.png");
+	background-size: contain;
+}
+.footer a:nth-child(3) {
+	background: url("../images/social-networks/pinterest.png");
+	background-size: contain;
+}
+.footer a:nth-child(4) {
+	background: url("../images/social-networks/youtube.png");
+	background-size: contain;
+}
+.footer a:nth-child(1):hover {
+	background: url("../images/social-networks/facebook-hover.png");
+	background-size: contain;
+}
+.footer a:nth-child(2):hover {
+	background: url("../images/social-networks/twitter-hover.png");
+	background-size: contain;
+}
+.footer a:nth-child(3):hover {
+	background: url("../images/social-networks/pinterest-hover.png");
+	background-size: contain;
+}
+.footer a:nth-child(4):hover {
+	background: url("../images/social-networks/youtube-hover.png");
+	background-size: contain;
+}
+@font-face {
+	font-family: "Roboto-Regular";
+	src: url("../fonts/Roboto-Regular.ttf");
+	font-weight: 400;
+	font-style: normal;
+}
