@@ -155,3 +155,8 @@
     box-shadow: none !important;
 }
 }
+@media (max-width: 768px) {
+	.services .col-md-4 {
+    padding: 0 1rem !important;
+}
+}
