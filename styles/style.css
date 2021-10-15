@@ -1,9 +1,6 @@
 *, *:before, *:after {
   box-sizing: border-box;
 }
-html {
-  scroll-behavior: smooth;
-}
 a {
   text-decoration: none;
 }
@@ -64,6 +61,7 @@ body {
   transition: 0.5s;
   position: relative;
   display: block;
+  cursor: pointer;
 }
 .intro__greating {
   margin-bottom: 132px;
