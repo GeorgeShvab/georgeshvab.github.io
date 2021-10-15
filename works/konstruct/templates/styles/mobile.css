@@ -6,7 +6,7 @@
 	top: 0;
 	left: -100vw;
 	opacity: 0;
-	transition: 0.5s left, 1s opacity;
+	transition: 0.5s left, 0.5s opacity;
 }
 .header__nav-mobile_active {
 	left: 0;
