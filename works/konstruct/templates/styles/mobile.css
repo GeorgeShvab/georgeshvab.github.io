@@ -1,11 +1,16 @@
 .header__nav-mobile {
-	display: none;
 	position: fixed;
 	background: white;
 	height: 100vh;
-	width: 100%;
+	width: 100vw;
 	top: 0;
+	left: -100vw;
+	opacity: 0;
+	transition: 0.5s left, 1s opacity;
+}
+.header__nav-mobile_active {
 	left: 0;
+	opacity: 1;
 }
 .header__list-mobile {
 	display: flex;
