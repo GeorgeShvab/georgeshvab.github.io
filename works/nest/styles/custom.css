@@ -150,3 +150,8 @@
 	font-weight: 400;
 	font-style: normal;
 }
+@media (max-width: 992px) {
+	img {
+    box-shadow: none !important;
+}
+}
