@@ -55,7 +55,7 @@ window.onload = function () {
 	function scrollTo(target) {
 		$("html").animate({
         	scrollTop: $(target).offset().top
-    	}, 500);
+    	}, 1500);
 	}
 	function animate(className) {
 		if (!isGridAnimationActive) {
