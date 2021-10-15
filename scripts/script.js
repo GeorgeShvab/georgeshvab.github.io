@@ -1,6 +1,9 @@
 window.onload = function () {
 	let open = false;
 	let isGridAnimationActive = false;
+	$(".nav__link-skills").click(() => (scrollTo("#skills")));
+	$(".nav__link-about-me").click(() => (scrollTo("#about-me")));
+	$(".nav__link-portfolio").click(() => (scrollTo("#portfolio")));
 	$(window).scroll(() => {
 		scrollEvent("section__title-1", "section__title_is-active");
 		scrollEvent("section__title-2", "section__title_is-active");
@@ -48,6 +51,11 @@ window.onload = function () {
 		if ($("html").scrollTop() > $("." + className).offset().top - $(window).height() - 100) {
 			$("." + className).addClass(newClassName);
 		}
+	}
+	function scrollTo(target) {
+		$("html").animate({
+        	scrollTop: $(target).offset().top
+    	}, 500);
 	}
 	function animate(className) {
 		if (!isGridAnimationActive) {
