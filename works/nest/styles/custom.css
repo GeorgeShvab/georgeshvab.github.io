@@ -155,8 +155,18 @@
     box-shadow: none !important;
 }
 }
-@media (max-width: 768px) {
+@media (max-width: 768px)
+ {
+ 	.services .row {
+    width: 100% !important;
+	}
 	.services .col-md-4 {
     padding: 0 1rem !important;
-}
+    max-width: 100% !important;
+	}
+	.services .col-md-4 img {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+	}
 }
