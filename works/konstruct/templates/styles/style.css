@@ -51,7 +51,6 @@ body {
 }
 .header {
 	border-bottom: 1px solid #E6E6E6;
-	margin-bottom: 57px;
 }
 .header__wrapper {
 	display: flex;
@@ -92,6 +91,7 @@ body {
 }
 .story {
 	margin-bottom: 119px;
+	padding-top: 57px;
 }
 .story__title {
 	font-size: 18px;
