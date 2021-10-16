@@ -6,14 +6,23 @@ window.onload = function () {
 		scroll_bar_move_left();
 	});
 
+	let canClose = true;
 	$(".header__button").click(function() {
-		$(".header__nav-mobile").css("display", "block");
-		$("body").css("overflow-y", "hidden");
+			openMenu();
+			canClose = false;
+			setTimeout(() => {canClose = true;}, 50);
 	});
-	$(".menu__button").click(function() {
-		$(".header__nav-mobile").css("display", "none");
-		$("body").css("overflow-y", "auto");
+	$("section, header").click(function() {
+			if (canClose) {
+				closeMenu();
+			}
 	});
+	function openMenu() {
+		$(".header__nav-mobile").addClass("header__nav-mobile_active");
+	}
+	function closeMenu() {
+		$(".header__nav-mobile").removeClass("header__nav-mobile_active");
+	}
 	
 }
 
