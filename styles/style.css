@@ -15,7 +15,7 @@ body {
   overflow: hidden;
 }
 .header {
-  height: 100vh;
+  height: 750px;
   background: url("../images/header-background.jpg") center no-repeat;
   background-size: cover;
   background-attachment: fixed;
