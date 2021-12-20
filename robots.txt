@@ -1,0 +1,7 @@
+User-agent: Googlebot
+Disallow: Allow: /
+
+User-agent: *
+Allow: /
+
+Sitemap: http://georgeshvab.github.io/sitemap.xml
