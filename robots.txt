@@ -1,5 +1,6 @@
 User-agent: Googlebot
 Disallow: /works
+Disallow: https://georgeshvab.github.io/works/konstruct/
 Allow: /
 
 User-agent: *
