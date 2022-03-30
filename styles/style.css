@@ -7,6 +7,9 @@ a {
 body {
   background: #F8F8F8;
 }
+body * {
+  font-display: auto;
+}
 .wrapper {
   max-width: 1120px;
   margin: 0 auto;
