@@ -1,82 +1,76 @@
-<mxfile host="app.diagrams.net" modified="2022-01-30T01:33:44.299Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="iLTBT_CfTBITlpFVabkV" version="16.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-28T19:19:47.329Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.62 Safari/537.36" etag="FsM7iWZJHLt6_6WrDBwR" version="18.1.1" type="github">
   <diagram id="hOpGklqUs0m4pfyKCffr" name="Page-1">
     <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="XSLIDNiVGispF_o0Tcnm-1" value="Citites" style="rounded=1;whiteSpace=wrap;html=1;fontSize=25;" vertex="1" parent="1">
-          <mxGeometry x="354" y="40" width="120" height="40" as="geometry" />
+        <mxCell id="XSLIDNiVGispF_o0Tcnm-1" value="City (array)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=25;" parent="1" vertex="1">
+          <mxGeometry x="354" y="40" width="156" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="XSLIDNiVGispF_o0Tcnm-2" value="Name (String)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+        <mxCell id="XSLIDNiVGispF_o0Tcnm-2" value="Name (String)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
           <mxGeometry x="40" y="120" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="XSLIDNiVGispF_o0Tcnm-3" value="Tags (Array of strings)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+        <mxCell id="XSLIDNiVGispF_o0Tcnm-3" value="Tags (Array of strings)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
           <mxGeometry x="40" y="180" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="XSLIDNiVGispF_o0Tcnm-5" value="Country (String)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+        <mxCell id="XSLIDNiVGispF_o0Tcnm-5" value="Country (String)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
           <mxGeometry x="676" y="180" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="XSLIDNiVGispF_o0Tcnm-6" value="Region (String)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+        <mxCell id="XSLIDNiVGispF_o0Tcnm-6" value="Region (String)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
           <mxGeometry x="676" y="240" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="XSLIDNiVGispF_o0Tcnm-7" value="Population (Number)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+        <mxCell id="XSLIDNiVGispF_o0Tcnm-7" value="Population (Number)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
           <mxGeometry x="676" y="300" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="XSLIDNiVGispF_o0Tcnm-8" value="Mayor (String)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+        <mxCell id="XSLIDNiVGispF_o0Tcnm-8" value="Mayor (String)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
           <mxGeometry x="676" y="360" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="XSLIDNiVGispF_o0Tcnm-9" value="Area (Number)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+        <mxCell id="XSLIDNiVGispF_o0Tcnm-9" value="Area (Number)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
           <mxGeometry x="676" y="420" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="XSLIDNiVGispF_o0Tcnm-10" value="Dencity of population" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+        <mxCell id="XSLIDNiVGispF_o0Tcnm-10" value="Dencity of population" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
           <mxGeometry x="676" y="484.5" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="XSLIDNiVGispF_o0Tcnm-11" value="Elevation (Number)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+        <mxCell id="XSLIDNiVGispF_o0Tcnm-11" value="Elevation (Number)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
           <mxGeometry x="676" y="550" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="XSLIDNiVGispF_o0Tcnm-12" value="Main Info" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="XSLIDNiVGispF_o0Tcnm-12" value="Main Info" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="676" y="120" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="XSLIDNiVGispF_o0Tcnm-13" value="Main Info (Object)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
-          <mxGeometry x="40" y="240" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="XSLIDNiVGispF_o0Tcnm-14" value="Paragraphs (Array of Objects)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+        <mxCell id="XSLIDNiVGispF_o0Tcnm-14" value="Paragraphs (Array of Objects)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
           <mxGeometry x="40" y="300" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="XSLIDNiVGispF_o0Tcnm-15" value="Paragraph" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="XSLIDNiVGispF_o0Tcnm-15" value="Paragraph" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="516" y="120" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="XSLIDNiVGispF_o0Tcnm-16" value="Title" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+        <mxCell id="XSLIDNiVGispF_o0Tcnm-16" value="Title" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
+          <mxGeometry x="40" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XSLIDNiVGispF_o0Tcnm-17" value="Text" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
           <mxGeometry x="516" y="180" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="XSLIDNiVGispF_o0Tcnm-17" value="Text" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
-          <mxGeometry x="516" y="240" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="XSLIDNiVGispF_o0Tcnm-18" value="Website (String)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+        <mxCell id="XSLIDNiVGispF_o0Tcnm-18" value="Website (String)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
           <mxGeometry x="676" y="620" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="XSLIDNiVGispF_o0Tcnm-19" value="Categories (Array of String)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" vertex="1" parent="1">
+        <mxCell id="XSLIDNiVGispF_o0Tcnm-19" value="Categories (Array of String)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" parent="1" vertex="1">
           <mxGeometry x="40" y="360" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="XSLIDNiVGispF_o0Tcnm-20" value="Author (String)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="1">
+        <mxCell id="XSLIDNiVGispF_o0Tcnm-20" value="Author (String)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" parent="1" vertex="1">
           <mxGeometry x="40" y="420" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="XSLIDNiVGispF_o0Tcnm-22" value="ImagesUrls (Array of String)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
+        <mxCell id="XSLIDNiVGispF_o0Tcnm-23" value="Interesting places (Array of Objects)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" parent="1" vertex="1">
           <mxGeometry x="40" y="484.5" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="XSLIDNiVGispF_o0Tcnm-23" value="Interesting places (Array of Objects)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
-          <mxGeometry x="40" y="550" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="XSLIDNiVGispF_o0Tcnm-24" value="Interesting place" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="XSLIDNiVGispF_o0Tcnm-24" value="Interesting place" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="356" y="120" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="XSLIDNiVGispF_o0Tcnm-25" value="Image (String)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
+        <mxCell id="XSLIDNiVGispF_o0Tcnm-25" value="Image (String)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" parent="1" vertex="1">
           <mxGeometry x="356" y="180" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="XSLIDNiVGispF_o0Tcnm-26" value="Name (String)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
+        <mxCell id="XSLIDNiVGispF_o0Tcnm-26" value="Name (String)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" parent="1" vertex="1">
           <mxGeometry x="356" y="240" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="XSLIDNiVGispF_o0Tcnm-27" value="Text (String)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
+        <mxCell id="XSLIDNiVGispF_o0Tcnm-27" value="Text (String)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" parent="1" vertex="1">
           <mxGeometry x="356" y="300" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
