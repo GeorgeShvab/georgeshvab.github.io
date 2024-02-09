@@ -1,0 +1,9 @@
+{
+  "manifest_version": 1,
+  "name": "Heorhii Shvab",
+  "version": "1.0.0",
+  "description": "Junior Web Developer",
+  "icons": {
+    "64": "/assets/favicon.ico"
+  }
+}

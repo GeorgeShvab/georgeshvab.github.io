@@ -1,0 +1,93 @@
+:root {
+  font-family: 'Pixelify Sans', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100svh;
+  overflow: hidden;
+}
+
+.canvas-container {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  background: #121212;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100svh - 56px);
+}
+
+.content__title {
+  color: white;
+  font-size: 42px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.content__subtitle {
+  color: #aaaaaa;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 56px;
+}
+
+.socials {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+
+.socials__icon {
+  color: #ffffff;
+}
+
+.socials__icon:hover {
+  transition: 0.25s color;
+  color: #dddddd;
+}
+
+.footer {
+  padding: 20px 0;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: center;
+}
+
+.footer__copy {
+  font-size: 16px;
+  color: #aaaaaa;
+}
+
+@media screen and (min-width: 769px) {
+  .content__container {
+    padding-top: 64px;
+  }
+
+  .content__title {
+    color: white;
+    font-size: 72px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .content__subtitle {
+    color: #aaaaaa;
+    font-size: 22px;
+    text-align: center;
+  }
+}
